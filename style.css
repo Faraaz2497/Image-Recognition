@@ -1,0 +1,17 @@
+body{
+color:white;
+    
+    background-color:pink;
+}
+.heading{
+width:80%;
+font-size:25px;
+}
+.name_objects,#result_objectname,#result_objectaccuracy{
+color:red;
+}
+#camera{
+border:2px solid black;
+width:350px;
+height:300px;
+}
