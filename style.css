@@ -1,17 +1,19 @@
-body{
-color:white;
-    
-    background-color:pink;
-}
 .heading{
-width:80%;
-font-size:25px;
+    font-size: 30px;
+    margin-top: 37px;
 }
-.name_objects,#result_objectname,#result_objectaccuracy{
-color:red;
+
+.btn-primary:hover{
+    background-color: rgb(255, 0, 0);
 }
-#camera{
-border:2px solid black;
-width:350px;
-height:300px;
+
+canvas{
+    animation-name: REDDOT;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes REDDOT{
+    from{box-shadow: 1px 1px 38px RED};
+    to{box-shadow: 1px 1px 38px yellow;}
 }
